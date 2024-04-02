@@ -7,6 +7,7 @@ import {
 import ListPage from "./rountes/homepage/listPage/listPage";
 import Layout from "./rountes/homepage/layout/layout";
 import SinglePage from "./rountes/homepage/singlePage/singlePage";
+import ProfilePage from "./rountes/homepage/profile-page/profilePage";
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ function App() {
         {
           path: "/:id",
           element: <SinglePage />,
+        },
+        {
+          path: "/profile",
+          element: <ProfilePage />,
         },
       ],
     },

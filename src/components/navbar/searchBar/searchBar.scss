@@ -72,6 +72,7 @@
       border: none;
       background-color: yellow;
       cursor: pointer;
+      width: 50px;
       flex: 1;
       @include sm {
         margin-bottom: 10px;
